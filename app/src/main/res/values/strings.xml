@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mimascota</string>
+
+    <string name="nombre">Edgar Nectalyl</string>
+    <string name="telefono">6664626</string>
+    <string name="correo">nkta_mtz@hotmail.com</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pconteo">conteo</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nkta_.mimascota.DetalleMascota">
+    <!-- android:layout_marginBottom="@dimen/activity_vertical_margin"-->
+
+    <include android:id="@+id/miaction_bar"
+        layout="@layout/actionbar">
+    </include>
+
+    <ImageView
+
+        android:id="@+id/imgfoto"
+        android:layout_width="346dp"
+        android:layout_height="192dp"
+        android:src="@drawable/masc2"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnlike"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="@dimen/espaciado"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/huesoblanco" />
+
+        <TextView
+            android:id="@+id/cvnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/pnombre"
+            android:textSize="@dimen/cardview"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/cvconteo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/pconteo"
+            android:textSize="@dimen/cardview"
+            android:textStyle="bold"
+
+            />
+
+
+        <ImageButton
+            android:id="@+id/btnconteo"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/huesoamari" />
+    </LinearLayout>
+
+</LinearLayout>
+
